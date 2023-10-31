@@ -9,6 +9,10 @@ Listar bd
 
 \c university
 
+psql -U postgres -d university < university-data.sql
+
+
+
 
 Link command utils
 
