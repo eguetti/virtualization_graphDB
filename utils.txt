@@ -10,7 +10,8 @@ Listar bd
 \c university
 
 psql -U postgres -d university < university-data.sql
-
+ou
+psql -U postgres -d university -f university-data.sql
 
 postgres@misti:/home/erika/Documents/graphDB$ psql -U postgres -d university2 -f university-data.sql;
 
