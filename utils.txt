@@ -5,7 +5,12 @@ sudo -u postgres -i
 Listar bd
 \l
 
+list tables
 \dt
+\dt+
+list schemas
+\dn
+\dn+
 
 \c university
 
