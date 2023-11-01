@@ -14,7 +14,18 @@ psql -U postgres -d university < university-data.sql
 
 postgres@misti:/home/erika/Documents/graphDB$ psql -U postgres -d university2 -f university-data.sql;
 
+-----------------
+(base) erika@misti:~/Documents/graphDB$ sudo -u postgres -i
+postgres@misti:~$ \conninfo
+conninfo: command not found
+postgres@misti:~$ psql
+psql (16.0 (Ubuntu 16.0-1.pgdg22.04+1), server 14.9 (Ubuntu 14.9-1.pgdg22.04+1))
+Type "help" for help.
 
+postgres=# \conninfo
+You are connected to database "postgres" as user "postgres" via socket in "/var/run/postgresql" at port "5432".
+
+---------------------------
 
 
 Link command utils
