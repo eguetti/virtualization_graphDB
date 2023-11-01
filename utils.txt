@@ -12,6 +12,9 @@ Listar bd
 psql -U postgres -d university < university-data.sql
 
 
+postgres@misti:/home/erika/Documents/graphDB$ psql -U postgres -d university2 -f university-data.sql;
+
+
 
 
 Link command utils
