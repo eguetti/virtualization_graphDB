@@ -20,6 +20,20 @@ psql -U postgres -d university -f university-data.sql
 
 postgres@misti:/home/erika/Documents/graphDB$ psql -U postgres -d university2 -f university-data.sql;
 
+-------------------------------------
+path program graphDB
+1. Version
+/opt/graphdb-desktop/lib/app/lib
+
+2. Version
+/opt/graphdb-desktop/lib/app/lib/jdbc
+
+There is a config file, named graphdb-free.cfg, within graphdb-free/appfolder. Open it and alter the app.classpath property by adding the additional jar(s) for the JDBC driver to the list. Save and restart
+
+app.classpath=$APPDIR/lib/jdbc/postgresql-42.5.4.jar
+
+
+
 -----------------
 (base) erika@misti:~/Documents/graphDB$ sudo -u postgres -i
 postgres@misti:~$ \conninfo
