@@ -2,6 +2,15 @@ Iniciar
 
 sudo -u postgres -i
 
+Start psql and create a password:
+
+sudo -u postgres psql
+
+- It will ask you enter a password for user postgres
+\password postgres 
+
+
+
 Listar bd
 \l
 
