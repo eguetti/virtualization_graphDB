@@ -1,5 +1,10 @@
-Iniciar
+Ontorefine
+--------------
+/opt/ontotext-refine/lib/app/lib/refine
 
+
+Iniciar postgres
+-----------------------
 sudo -u postgres -i
 
 Start psql and create a password:
@@ -29,8 +34,10 @@ psql -U postgres -d university -f university-data.sql
 
 postgres@misti:/home/erika/Documents/graphDB$ psql -U postgres -d university2 -f university-data.sql;
 
--------------------------------------
+
 path program graphDB
+-------------------------------------
+
 1. Version
 /opt/graphdb-desktop/lib/app/lib
 
